@@ -2,7 +2,7 @@ public class Toyota extends Car implements Printable{
     private String owner;
     private int seats;
 
-    public Toyota(int price, int year, int speed, String color) {
+    public Toyota(int speed, String color, String owner, int seats) {
         super(speed, color);
         this.owner = owner;
         this.seats = seats;

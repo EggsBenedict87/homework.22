@@ -2,7 +2,7 @@ public class BMW extends Car implements Printable{
     private String durable;
     private int length;
 
-    public BMW(int price, int year, int speed, String color) {
+    public BMW(int speed, String color, String durable, int length) {
         super(speed, color);
         this.durable = durable;
         this.length = length ;

@@ -18,10 +18,10 @@ public class Main {
                 car = new Mercedes(10000, 2004, 60, "gray");
                 break;
             case "BMW":
-                car = new BMW(12500, 2009, 80, "red");
+                car = new BMW(80, "red" , "good", 2);
                 break;
             case "Toyota":
-                car = new Toyota(15000, 2015, 100, "black");
+                car = new Toyota(100, "black", "Mike Tyson",4 );
                 break;
 
         }
